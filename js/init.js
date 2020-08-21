@@ -19,14 +19,9 @@
       });
     },
 
-    fadeText: function () {
-      $("#hero_fade").fadeIn(3000);
-    },
-
     init: function () {
       init.domCache();
       this.stickyHeader();
-      this.fadeText();
     }
   };
 
